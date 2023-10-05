@@ -9,7 +9,7 @@ on:
       - main
       - releases/*
     paths-ignore:
-      - '**.md'
+      - '**.md':"path/to/directory
 
 jobs:
   call-basic-validation:
